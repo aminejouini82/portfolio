@@ -21,8 +21,8 @@ nav {
 
 nav > div a {
     text-decoration: none;
-    color: white;
-    margin: 0 .4em;
+    color: aqua;
+    margin: 10px .4em;
 }
 
 #home {
@@ -92,6 +92,7 @@ nav > div a {
     background-color: black;
     padding: 2em;
     padding-bottom: 4em;
+    margin-bottom: 20px;
 }
 
 #myproject > h1 {
@@ -127,3 +128,54 @@ footer {
     font-size: 1.5em;
     padding: 1em;
 }
+.web{
+    color: aqua;
+}
+
+
+
+
+@media( max-width : 640px){
+ nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ nav > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ 
+}
+@media(max-width :800px ){
+  #about > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
+@media (max-width :629px ){
+    #myproject{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        height: 65vh;
+     
+    }
+    
+    #myproject > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }  
+}
+@media(max-)
+
+    
