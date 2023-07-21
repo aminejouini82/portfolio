@@ -84,6 +84,7 @@ nav > div a {
 #about > div > div p {
     font-size: 2em;
     text-align: justify;
+    padding: 20px;
 }
 
 #myproject{
